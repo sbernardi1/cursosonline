@@ -1,0 +1,669 @@
+
+/* css reset - General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+/*<---------------------> */
+
+/* -------------------------------SECCIÓN DE INDEX -------------------------------> */
+
+/* seccion de header - Index */
+
+.header__index{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background: url(../../img/Frame\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+/*<---------------------> */
+
+/* Seccion, párrafo y título del header - Index LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.header__container{
+  margin: 30px 0 30px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__tittle{
+  font-size: 45px;
+  color: #7e7e7e;
+}
+
+.header__subtittle{
+  font-size: 25px;
+  color: #7e7e7e;
+}
+
+.header__parrafo{
+  width: 450px;
+}
+
+.span__edu{
+  color: yellow;
+}
+
+.text__btn--inicio{
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+.text__btn--cuenta{
+  display: inline-block;
+  border: 2px solid yellow;
+  background-color: yellow;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.text__btn--inicio:hover{
+  background-color: black;
+}
+
+.text__btn--cuenta:hover{
+  background-color: black;
+}
+
+/*<---------------------LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> */
+
+/* Navigation - Index  LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.header__nav--index{
+  height: 70px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.281);
+}
+
+.nav__il--index{
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 16px;
+}
+
+.nav__logo--index{
+  width: 140px;
+  margin: 10px 30px 30px 30px;
+}
+
+/*<--------------------- LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> */
+
+/* Beenficios - Index LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.beneficios__container{
+  background: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+  
+.beneficios__text{
+  padding: 0 0 10px 0;
+}
+
+.beneficios__text--one{
+  background: none;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.beneficios__text--two{
+  background: none;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.beneficios__text--three{
+  background: none;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.beneficios__text--one:hover{
+  background: yellow;
+  color: white;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.beneficios__text--two:hover{
+  background: orange;
+  color: white;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.beneficios__text--three:hover{
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 30px 30px 10px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+/*<---------------------LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> */
+
+/* Sobre Nostros - Index LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.sobrenosotros__container{
+  background-color: #5D1190;
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.sobrenosotros__parrafo{
+  color: yellow ;
+  margin: 30px;
+  width: 450px;
+  
+}
+
+.sobrenosotros__tittle{
+  color: black ;
+  font-size: 25px;
+  padding: 30px 30px 0px 30px;
+  
+}
+
+.sobrenosotros__btn{
+  padding: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  border: 2px solid yellow;
+  background-color: yellow;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.sobrenosotros__btn:hover{
+  background-color: black;
+}
+
+/*<--------------------->LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+/* Cursos populares - Index LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.cp__containergeneral{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cursospopulares__tittle{
+  margin: 30px;
+  color: black;
+  font-size: 25px;
+}
+
+.cursospopulares__container {
+  background: none;
+  padding: 10px;
+  margin: 0 30px 30px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.curso_tittle {
+  text-align: center;
+  margin: 10px;
+}
+
+.cursospopulares_parrafo{
+  margin: 10px;
+  text-align: justify;
+}
+
+.cursospopulares__btn{
+  display: inline-block;
+  border: 2px solid yellow;
+  background-color: yellow;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  margin: 10px 30px 0 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+.cursospopulares__btn:hover{
+  background-color: black;
+}
+
+.cursospopulares_parrafo {
+  color: gray;
+  font-size: 9pt;
+}
+
+/*<---------------------> LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+/* Que nos avala  - Index LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+.quenosavala__container--general {
+  background-color: #5D1190;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: o;
+}
+
+.quenosavala__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.quenosavala__section{
+  margin: 30px;
+  background: none;
+  padding: 10px;
+  margin: 30px 30px 30px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+}
+
+.quenosavala__number{
+  color: #e0ff00;
+}
+
+.quenosavala_parrafo {
+  color: white;
+  font-size: 9pt;
+  color: black ;
+  margin: 10;
+}
+
+.quenosavala__tittle{
+  margin: 30px 0 0 30px;
+  color: black;
+  font-size: 25px;
+}
+
+/*<---------------------LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> */
+
+/* Opioniones de nuestros alumnos - Index */
+
+.opiniones__containergeneral{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.opiniones__tittle{
+  margin: 30px;
+  color: black;
+  font-size: 25px;
+}
+
+.opiniones__container{
+  background: none;
+  padding: 10px;
+  margin: 0 30px 30px 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+}
+
+.opiniones__parrafo{
+  color: gray;
+  font-size: 9pt;
+  padding: 10px;
+}
+
+/*<---------------------> */
+
+/* footer  */
+
+.nav__logo{
+  width: 140px;
+  margin: 10px 0 10px 30px;
+}
+
+.footer__container {
+  background:#2A3C6C;
+  padding: 20px;
+}
+
+.footer_copy{
+  color: white;
+  margin: 10px 30px 15px 30px;
+}
+
+.link__footer{
+  color: white;
+}
+
+.footer__tittle{
+  color: black;
+  margin: 0px 0 15px 30px;
+}
+
+.footer__datos{
+  margin: 10px 0 10PX 30PX;
+
+}
+/*<---------------------> */
+
+/* ------------------------------- FIN DE LA SECCIÓN DE INDEX -------------------------------> */
+
+/* -------------------------------SECCIÓN DE CURSOS -------------------------------> */
+
+/* seccion de header - cursos */
+
+.header__index{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background: url(../../img/Frame\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+/*<---------------------> */
+
+/* Navigation - Cursos */
+
+.header__nav--cursos{
+  height: 70px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.281);
+}
+
+.nav__il--cursos{
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 16px;
+}
+
+.nav__logo--cursos{
+  width: 140px;
+  margin: 10px 30px 30px 30px;
+  
+}
+
+/*<---------------------> */
+
+/* ------------------------------- FIN DE CURSOS -------------------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seccion, párrafo y título del header - Iniciar sesión*/
+
+.header__inisesion{
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-color:#2A3C6C;
+} 
+
+.header_tittle--inisesion{
+  font-size: 30px;
+  color: black;
+  margin: 30px;
+}
+
+.header__parrafo--inisesion{
+  color: white;
+  margin: 30px 30px 0 30px ;
+}
+
+.text__btn--volveralinicio{
+  display: inline-block;
+  border: 2px solid yellow;
+  background-color: yellow;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  margin: 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+.text__btn--volveralinicio:hover{
+  background-color: black;
+}
+
+/*<---------------------> */
+
+/* Iniciar sesión y creación de cuenta - Iniciar sesión*/
+
+.ingreso__container{
+  background: none;
+  padding: 15px;
+  margin: 30px;
+  border: 2px solid black;
+  height: 100%;
+  width: 380px;
+  text-align: left;
+}
+
+.ingreso__logo {
+  width: 140px;
+  margin: 5px  30px 15px 15px;
+
+}
+
+.ingreso__tittle{
+  font-size: 20px;
+  color: #5D1190;
+  padding: 0 30px 15px 30px;
+  text-align: center;
+}
+
+.ingresos_imput{
+  padding: 10px 30px 5px 30px;
+}
+
+.text__container--inisesion{
+  text-align: center;
+}
+
+.text__btn--google{
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.text__btn--google:hover{
+  background-color: black;
+}
+
+.text__btn--facebook{
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.text__btn--facebook:hover{
+  background-color: black;
+}
+
+.btn_container--inisesion{
+  margin:  15px 15px 15px 30px;
+}
+
+.text__btn--insesion{
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.text__btn--insesion:hover{
+  background-color: black;
+}
+
+.text__btn--crearcuenta{
+  display: inline-block;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 15px 15px 15px 30px;
+}
+
+.text__btn--crearcuenta:hover{
+  background-color: black;
+}
+/*<---------------------> */
+
+
+/* Navbar - Webinar*/
+
+.header__nav--webinar{
+  height: 70px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.5);
+
+
+}
+
+
+/*<---------------------> */
+
+
+h1 {
+  color: #e0ff00;
+}
+
+
+p {
+  color: #7e7e7e;
+}
+
+
+a:hover {
+  color: lawngreen;
+}
+
+
+.hero_nav {
+  background: gray;
+}
+
+
+
+
+.video_container {
+  background: gray;
+}
+
+.tabla_webinar {
+  width: 300px;
+  height: 100px;
+}
+
+.text_table {
+  color: green;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.formulario_container {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  height: 100%;
+  width: 450px;
+  text-align: left;
+}
+
+
+
+
+.filtrros_container {
+  background: none;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+}
+
